@@ -1,13 +1,16 @@
-import static org.junit.jupiter.api.Assertions.*;
+import java.util.Scanner;
 
-import org.junit.jupiter.api.Test;
+public class FizzBuzz {
 
-class FizzBuzz {
-
-	@Test
-	void test() {
-		int result = 1;
-		assertEquals(1,result);
+	public static void main(String[] args) {
+		Scanner key = new Scanner(System.in);
+		int input = key.nextInt();
+		System.out.println(input);
+		int output = getFizz(input);
+	}
+	
+	public static int getFizz(int key) {
+		return key;
 	}
 
 }
